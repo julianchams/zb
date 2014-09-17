@@ -1,0 +1,14 @@
+body {
+	background-color: orange;
+
+	.cell {
+		display: block;
+	}
+}
+
+@media all and (min-width: 1300px) {
+	body .cell {
+		width: 200px;
+		display: inline-block;
+	}
+}
