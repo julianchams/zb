@@ -2,39 +2,31 @@
 
 html {
 	background: url(../images/bckgrnd_nofinger.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
 	font-family: 'Roboto', sans-serif;
-
-
-	body {
-		background-color: transparent;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		font-family: 'Roboto', sans-serif;
-
-		h1, ,h2, h3 {
-			color: white;
-			text-align: center;
-		}
-
-		nav {
-			background-color: #F1C9AD;
-		} 
-
-		img {
-			margin-bottom: 20px;
-		}
-
-		.vertical-center {
-			float: none;
-			display:inline-block;
-			vertical-align: middle
-		}
-
-	}
-
 }
 
-@media (min-width: 768px) {
+body {
+	background-color: transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, ,h2, h3 {
+	color: white;
+	text-align: center;
+}
+
+nav {
+	background-color: #F1C9AD;
+} 
+
+img.bottom-margin {
+	margin-bottom: 20px;
 }
